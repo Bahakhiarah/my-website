@@ -330,3 +330,18 @@ footer .content-footer .end {
     display: none;
   }
 }
+/* ALT TEXT FOR MOBILE INSTEAD OF IMAGES */
+.alt-text {
+  display: none;
+  color: var(--lightColor);
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 575px) {
+  .alt-text {
+    display: block;
+  }
+}
