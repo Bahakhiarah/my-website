@@ -311,3 +311,23 @@ footer .content-footer .end {
     width: 100%;
   }
 }
+/* IMAGE RESPONSIVENESS: Container for flexible image behavior */
+.responsive-image-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.responsive-image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 0 10px rgba(255, 0, 180, 0.5));
+}
+
+/* HIDE IMAGES ON SMALL SCREENS */
+@media screen and (max-width: 768px) {
+  .responsive-image-container {
+    display: none;
+  }
+}
