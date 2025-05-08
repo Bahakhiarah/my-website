@@ -14,7 +14,7 @@
 }
 
 html {
-  font-family: 'Lucida Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   color: var(--lightColor);
 }
@@ -311,7 +311,8 @@ footer .content-footer .end {
     width: 100%;
   }
 }
-/* IMAGE RESPONSIVENESS: Container for flexible image behavior */
+
+/* IMAGE RESPONSIVENESS */
 .responsive-image-container {
   width: 100%;
   max-width: 500px;
@@ -324,8 +325,6 @@ footer .content-footer .end {
   display: block;
   filter: drop-shadow(0 0 10px rgba(255, 0, 180, 0.5));
 }
-
-/* HIDE IMAGES ON SMALL SCREENS */
 @media screen and (max-width: 768px) {
   .responsive-image-container {
     display: none;
