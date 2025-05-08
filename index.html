@@ -1,128 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PROTOFILE - BAHAA ABU KHIARAH</title>
-  <meta name="description" content="The best site for teaching programming languages" />
-  <meta name="keywords" content="html, java, c++, css, bahaa, abu KHIARAH" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="icon" href="cucumber_plain_logo_icon_146571.ico" />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>موقعي الشخصي</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- HOME -->
+  <section class="home" id="home">
+    <nav>
+      <h2>موقعي<span> الشخصي</span></h2>
+      <ul>
+        <li><a href="#home">الرئيسية</a></li>
+        <li><a href="#about">من أنا</a></li>
+        <li><a href="#services">الخدمات</a></li>
+        <li><a href="#skills">المهارات</a></li>
+      </ul>
+      <button id="menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
 
-<!-- HOME -->
-<section class="home" id="home">
-  <nav>
-    <h2>Barmaja <span>online</span></h2>
-    <ul id="actions">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact">Contact Me</a></li>
-    </ul>
-    <a href="#" class="btn">Subscribe</a>
-    <button id="menu"><span></span><span></span><span></span></button>
-  </nav>
+    <div class="content">
+      <div class="containar-texts">
+        <h4>مرحبا، أنا</h4>
+        <h1>اسمك هنا</h1>
+        <h3>مطور واجهات أمامية</h3>
+        <a href="#" class="btn">تواصل معي</a>
+        <div class="social">
+          <a href="#"><img src="images/facebook.png" alt="facebook" /></a>
+          <a href="#"><img src="images/instagram.png" alt="instagram" /></a>
+          <a href="#"><img src="images/twitter.png" alt="twitter" /></a>
+        </div>
+      </div>
 
-  <div class="content">
-    <div class="containar-texts">
-      <h4>Hello, my name is</h4>
-      <h1>BAHAA <span>ABU KHIARAH</span></h1>
-      <h3>I'm a <span>Full-Stack Developer</span></h3>
-      <a href="#" class="btn">Download CV</a>
-      <div class="social">
-        <a href="https://web.facebook.com/rosa.vidal.7731247/" target="_blank"><img src="facebook_108044.png" alt="" /></a>
-        <a href="https://www.instagram.com/bahaa_khi/?hl=en" target="_blank"><img src="instagram_108043.png" alt="" /></a>
-        <a href="https://www.linkedin.com/in/baha-abukhiarah-876867268/" target="_blank"><img src="linkedin_icon-icons.com_65929.png" alt="" /></a>
-        <a href="https://www.youtube.com/@bahaabukhiarah3523" target="_blank"><img src="youtube_icon-icons.com_62716.png" alt="" /></a>
+      <div class="container-images">
+        <img src="images/shape.png" class="shape" />
+        <img src="images/pic.png" class="pic" />
+        <div class="alt-text">هذه صورة تعبر عن شخصيتي كمطور واجهات أمامية</div>
       </div>
     </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="containar-images">
+      <img src="images/about.png" />
+      <div class="alt-text">صورة توضح خلفيتي ومهاراتي</div>
+    </div>
+    <div class="containar-texts">
+      <h1>من أنا</h1>
+      <h5>مطور <span>واجهات أمامية</span></h5>
+      <p>نبذة تعريفية قصيرة عنك...</p>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <h1 class="text-center">الخدمات</h1>
+    <div class="box">
+      <div class="card">
+        <i class="fas fa-code"></i>
+        <h5>تصميم مواقع</h5>
+        <p>أقوم بتصميم مواقع متجاوبة وحديثة.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-paint-brush"></i>
+        <h5>تجربة مستخدم</h5>
+        <p>أصمم واجهات تسهل تجربة المستخدم.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="Skills" id="skills">
     <div class="container-images">
-      <img src="Online world-amico.png" alt="" class="shape" />
-      <img src="thought-stock-photography-thinking-man.png" alt="" class="pic" />
+      <img src="images/skills.png" />
+      <div class="alt-text">تمثيل مرئي للمهارات التقنية التي أمتلكها</div>
     </div>
-  </div>
-</section>
-
-<!-- ABOUT -->
-<section class="about" id="about">
-  <div class="containar-images">
-    <img src="Chat bot-amico.png" alt="" />
-  </div>
-  <div class="containar-texts">
-    <h1>About <span>Me</span></h1>
-    <h5><span>Full-Stack</span> Developer</h5>
-    <p>
-      As a full-stack developer, I thrive on the dynamic challenges that come with building both front-end and back-end
-      components. From crafting seamless UIs to building performant backend logic, I love it all.
-    </p>
-  </div>
-</section>
-
-<!-- SERVICES -->
-<section class="services" id="services">
-  <h1 class="text-center">Our <span>Services</span></h1>
-  <div class="box">
-    <div class="card">
-      <i class="fa-solid fa-mobile-screen-button"></i>
-      <h5>Mobile Dev</h5>
-      <p>I craft innovative mobile solutions that combine technical power with great UI/UX design.</p>
-    </div>
-    <div class="card">
-      <i class="fa-solid fa-globe"></i>
-      <h5>Web Dev</h5>
-      <p>I develop responsive and elegant web solutions tailored for all screen sizes.</p>
-    </div>
-    <div class="card">
-      <i class="fa-solid fa-desktop"></i>
-      <h5>Desktop Dev</h5>
-      <p>I specialize in developing fast, scalable, and user-friendly desktop apps.</p>
-    </div>
-    <div class="card">
-      <i class="fa-solid fa-check"></i>
-      <h5>Problem Solver</h5>
-      <p>I solve complex problems using logic, code, and creativity to deliver real-world solutions.</p>
-    </div>
-  </div>
-</section>
-
-<!-- SKILLS -->
-<section class="Skills" id="skills">
-  <h1><span>My </span>Skills</h1>
-  <div class="container-skills">
     <div class="content-skills">
-      <div class="skills"><img src="c_sharp_icon_213045.png" /></div>
-      <div class="skills"><img src="file_type_css_icon_130661.png" /></div>
-      <div class="skills"><img src="file_type_flutter_icon_130599.png" /></div>
-      <div class="skills"><img src="file_type_html_icon_130541.png" /></div>
-      <div class="skills"><img src="file_type_maven_icon_130397.png" /></div>
-      <div class="skills"><img src="file_type_sql_icon_130152.png" /></div>
-      <div class="skills"><img src="file_type_word_icon_130070.png" /></div>
-      <div class="skills"><img src="plus_logo_c_icon_214621.png" /></div>
-      <div class="skills"><img src="PHP_icon-icons.com_68990.png" /></div>
-      <div class="skills"><img src="file_type_pdf_icon_130274.png" /></div>
-      <div class="skills"><img src="market_seo_avatar_people_focus_marketing_target_customer_icon_258334.png" /></div>
-      <div class="skills"><img src="research_investigation_experimentation_scientific_inquiry_data_analysis_icon_261182.png" /></div>
+      <h1>مهاراتي</h1>
+      <p>HTML, CSS, JavaScript, React...</p>
     </div>
-    <div class="container-images">
-      <img src="Soft skills-amico.png" alt="" />
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="content-footer">
+      <h2>موقعي الشخصي</h2>
+      <p>شكرًا لزيارتك. يمكنك التواصل معي عبر البريد أو وسائل التواصل.</p>
+      <p class="end">جميع الحقوق محفوظة 2025 ©</p>
     </div>
-  </div>
-</section>
-
-<!-- FOOTER -->
-<footer id="contact">
-  <div class="content-footer">
-    <h2>Bahaa <span>Abu Khiarah</span></h2>
-    <p>For more information, contact me on WhatsApp: +962790786743</p>
-    <p class="end">CopyRight by Bahaa Abu Khiarah</p>
-  </div>
-</footer>
-
-<script src="script.js"></script>
+  </footer>
 </body>
 </html>
