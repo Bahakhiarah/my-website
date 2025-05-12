@@ -1,97 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baha Bkhayarah - Personal Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 2rem;
+            text-align: center;
+        }
+        section {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            margin-bottom: 1rem;
+        }
+        p {
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: #fff;
+            margin-top: 2rem;
+        }
+        @media (max-width: 600px) {
+            header, section, footer {
+                padding: 1rem;
+            }
+        }
+    </style>
 </head>
 <body>
-  <!-- HOME -->
-  <section class="home" id="home">
-    <nav>
-      <h2>My<span> Portfolio</span></h2>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#skills">Skills</a></li>
-      </ul>
-      <button id="menu">
-        <span></span><span></span><span></span>
-      </button>
-    </nav>
-
-    <div class="content">
-      <div class="containar-texts">
-        <h4>Hello, I am</h4>
-        <h1>BAHAA ABU KHIARAH</h1>
-        <h3>Frontend Developer</h3>
-        <a href="#" class="btn">Contact Me</a>
-        <div class="social">
-          <a href="#"><img src="images/facebook.png" alt="facebook" /></a>
-          <a href="#"><img src="images/instagram.png" alt="instagram" /></a>
-          <a href="#"><img src="images/twitter.png" alt="twitter" /></a>
-        </div>
-      </div>
-
-      <div class="container-images">
-        <img src="images/shape.png" class="shape" />
-        <img src="images/pic.png" class="pic" />
-        <div class="alt-text">This image represents me as a frontend developer</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section class="about" id="about">
-    <div class="containar-images">
-      <img src="images/about.png" />
-      <div class="alt-text">An image that illustrates my background and skills</div>
-    </div>
-    <div class="containar-texts">
-      <h1>About Me</h1>
-      <h5><span>Frontend</span> Developer</h5>
-      <p>A short introduction about yourself...</p>
-    </div>
-  </section>
-
-  <!-- SERVICES -->
-  <section class="services" id="services">
-    <h1 class="text-center">Services</h1>
-    <div class="box">
-      <div class="card">
-        <i class="fas fa-code"></i>
-        <h5>Website Design</h5>
-        <p>I design modern and responsive websites.</p>
-      </div>
-      <div class="card">
-        <i class="fas fa-paint-brush"></i>
-        <h5>User Experience</h5>
-        <p>I craft interfaces that improve user experience.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- SKILLS -->
-  <section class="Skills" id="skills">
-    <div class="container-images">
-      <img src="images/skills.png" />
-      <div class="alt-text">Visual representation of my technical skills</div>
-    </div>
-    <div class="content-skills">
-      <h1>My Skills</h1>
-      <p>HTML, CSS, JavaScript, React...</p>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer>
-    <div class="content-footer">
-      <h2>My Portfolio</h2>
-      <p>Thank you for visiting. You can contact me via email or social media +962790786743.</p>
-      <p class="end">© 2025 All Rights Reserved</p>
-    </div>
-  </footer>
+    <header>
+        <h1>Baha Bkhayarah</h1>
+        <p>Computer Science Student | Tech Enthusiast</p>
+    </header>
+    <section>
+        <h2>About Me</h2>
+        <p>I am Baha Bkhayarah, a computer science student at Ajloun National University. I have completed my second year and am passionate about technology and programming.</p>
+        <h2>Skills</h2>
+        <p>Programming Languages: ++C, HTML</p>
+        <p>Office Tools: Excel, Word, PowerPoint</p>
+        <p>AI Integration: Combining AI tools to create small successful projects</p>
+        <h2>Personal Traits</h2>
+        <p>Teamwork, Logical Thinking, Problem-Solving, Adaptability, Commitment</p>
+        <h2>Experience</h2>
+        <p>Novakids - Customer Service (1 year)</p>
+        <p>CSC Beyond - Telemarketing (3 months)</p>
+        <h2>Contact</h2>
+        <p>Phone: [Your Phone Number]</p>
+        <p>Email: [Your Email Address]</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Baha Bkhayarah. All rights reserved.</p>
+    </footer>
 </body>
 </html>
